@@ -29,6 +29,8 @@ Here's why:
 * You should implement DRY principles to the rest of your life :smile:
 
 > Hardware Details and PIN Assignments
+
+
 ```
 void sendSensorValues()
 {
@@ -51,4 +53,5 @@ void sendSensorValues()
   ScratchBoardSensorReport(6, digitalRead(2)?1023:0);
   ScratchBoardSensorReport(10, digitalRead(3)?1023:0);
 }
+
 ```
