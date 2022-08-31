@@ -1,4 +1,4 @@
-## About The Project
+## Afzal's Prototyping Hub
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
