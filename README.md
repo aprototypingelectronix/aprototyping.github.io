@@ -29,3 +29,26 @@ Here's why:
 * You should implement DRY principles to the rest of your life :smile:
 
 > Hardware Details and PIN Assignments
+```
+void sendSensorValues()
+{
+  unsigned int sensorValues[6], readings[5];
+  byte sensorIndex;
+
+  for (sensorIndex = 0; sensorIndex < 6; sensorIndex++) //for analog sensors, calculate the median of 5 sensor readings in order to avoid variability and power surges
+  {
+    for (byte p = 0; p < 5; p++)
+      readings[p] = analogRead(sensorIndex);
+    insertionSort(readings, 5); //sort readings
+    sensorValues[sensorIndex] = readings[2]; //select median reading
+  }
+
+  //send analog sensor values
+  for (sensorIndex = 0; sensorIndex < 6; sensorIndex++)
+    ScratchBoardSensorReport(sensorIndex, sensorValues[sensorIndex]);
+
+  //send digital sensor values
+  ScratchBoardSensorReport(6, digitalRead(2)?1023:0);
+  ScratchBoardSensorReport(10, digitalRead(3)?1023:0);
+}
+```
