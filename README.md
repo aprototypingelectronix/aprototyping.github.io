@@ -10,6 +10,13 @@ This PCB design and built in Maldives for our market.
 
 <img src="pixelone-02.png" width="500">
 
+| ATMEGA32U4 PIN  | Arduino PIN Mapping  |
+| --------------- |:--------------------:|
+| D0 (PD0)        | 3                    |
+| D1 (PD1)        | 2                    |
+| D2 (PD2)        | 1                    |
+| D3 (PD3)        | 0                    |
+| D0 (PD0)        | 3                    |
 
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
