@@ -1,4 +1,3 @@
-# Projects
 
 ## Pix3lone
 
