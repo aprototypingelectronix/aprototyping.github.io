@@ -24,7 +24,7 @@ Here's why:
 ```
 void sendSensorValues()
 {
-  unsigned int sensorValues[6], readings[5];
+  unxes[6], readings[5];
   byte sensorIndex;
 
   for (sensorIndex = 0; sensorIndex < 6; sensorIndex++) //for analog sensors, calculate the median of 5 sensor readings in order to avoid variability and power surges
