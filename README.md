@@ -7,7 +7,7 @@ This PCB design and built in Maldives for our market.
 
 > Hardware Details and PIN Assignments
 
-<img src="pixelone-02.png" width="200">
+<img src="pixelone-02.png" width="500">
 
 
 
