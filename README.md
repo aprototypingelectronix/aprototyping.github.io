@@ -18,7 +18,7 @@ The hardware includes:
 
 > Hardware Details and PIN Assignments
 
-<img src="pixelone-02.png" width="500">
+<img src="Afzal PCB(2).png" width="500">
 
 | ATMEGA32U4 PIN  | Board Markings | Arduino PIN Mapping  | Function Details |
 | --------------- |:--------------:|:--------------------:|:----------------:|
