@@ -6,7 +6,7 @@
 This project is based for individuals who are interested to learn Microcontroller Programming. Hardware is design and built proudly in Maldives. 
 When you plugin this board to your PC, it will be displayed as Arduino Leonardo.
 
-For working examples please goto (https://www.google.com "EXAMPLES") and if you have any comments or issues please goto (https://www.google.com "ISSUES") and raise your voice!
+For working examples please goto [Examples](https://www.google.com "EXAMPLES") and if you have any comments or issues please goto [Issues](https://github.com/aprototypingelectronix/aprototypingelectronix.github.io/issues "ISSUES") and raise your voice!
 
 The hardware includes:
 
