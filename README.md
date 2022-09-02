@@ -3,8 +3,18 @@
 ## Projects
 ### Pix3lone
 
-This project is based for individuals who are interested to learn Microcontroller Programming.
-This PCB design and built in Maldives for our market.
+This project is based for individuals who are interested to learn Microcontroller Programming. Hardware is design and built proudly in Maldives. 
+When you plugin this board to your PC, it will be displayed as Arduino Leonardo.
+
+For working examples please goto (https://www.google.com "EXAMPLES") and if you have any comments or issues please goto (https://www.google.com "ISSUES") and raise your voice!
+
+The hardware includes:
+
+* An SPI interface: for hardcore developers if they need to download custom bootloaders
+* USB-C Interface: for programming uses (No need of external USART converters, You can plug-in to the PC and through Arduino IDE/Avrdude you can just upload the your firmware’s )
+* Two LED’s: One LED will indicate the power to the board. Second one is connected to PE6 of ATMEGA32U4 (In Arduino Pin Mapping its pin 7)
+* 500mA Fuse: Protection against over current on USB powerlines.
+
 
 > Hardware Details and PIN Assignments
 
@@ -26,39 +36,5 @@ This PCB design and built in Maldives for our market.
 | PF5             | A2             | A2                   | IO / ADC         |
 | PF6             | A1             | A1                   | IO / ADC         |
 | PF7             | A0             | A0                   | IO / ADC         |
+| PE6             | -              | 7                    | Onboard LED      |
 
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-> Hardware Details and PIN Assignments
-
-
-```
-void sendSensorValues()
-{
-  unxes[6], readings[5];
-  byte sensorIndex;
-
-  for (sensorIndex = 0; sensorIndex < 6; sensorIndex++) //for analog sensors, calculate the median of 5 sensor readings in order to avoid variability and power surges
-  {
-    for (byte p = 0; p < 5; p++)
-      readings[p] = analogRead(sensorIndex);
-    insertionSort(readings, 5); //sort readings
-    sensorValues[sensorIndex] = readings[2]; //select median reading
-  }
-
-  //send analog sensor values
-  for (sensorIndex = 0; sensorIndex < 6; sensorIndex++)
-    ScratchBoardSensorReport(sensorIndex, sensorValues[sensorIndex]);
-
-  //send digital sensor values
-  ScratchBoardSensorReport(6, digitalRead(2)?1023:0);
-  ScratchBoardSensorReport(10, digitalRead(3)?1023:0);
-}
-
-```
