@@ -10,22 +10,22 @@ This PCB design and built in Maldives for our market.
 
 <img src="pixelone-02.png" width="500">
 
-| ATMEGA32U4 PIN  | Arduino PIN Mapping  | Function Details |
-| --------------- |:--------------------:|:----------------:|
-| PD0             | 3                    | IO / SCL         |  
-| PD1             | 2                    | IO / SDA         |         
-| PD2             | 0                    | IO / Serial-RX   |
-| PD3             | 1                    | IO / Serial-TX   |
-| PD4             | 4                    | IO / ADC         |
-| PD6             | 12                   | IO / ADC         |
-| PD7             | 6                    | IO / ADC / PWM   |
-| PC6             | 5                    | IO / PWM         |
-| PF0             | A5                   | IO / ADC         |
-| PF1             | A4                   | IO / ADC         |
-| PF4             | A3                   | IO / ADC         |
-| PF5             | A2                   | IO / ADC         |
-| PF6             | A1                   | IO / ADC         |
-| PF7             | A0                   | IO / ADC         |
+| ATMEGA32U4 PIN  | Board Markings | Arduino PIN Mapping  | Function Details |
+| --------------- |:--------------:|:--------------------:|:----------------:|
+| PD0             | D3             | 3                    | IO / SCL         |  
+| PD1             | D2             | 2                    | IO / SDA         |         
+| PD2             | D0             | 0                    | IO / Serial-RX   |
+| PD3             | D1             | 1                    | IO / Serial-TX   |
+| PD4             | D4             | 4                    | IO / ADC         |
+| PD6             | D12            | 12                   | IO / ADC         |
+| PD7             | D6             | 6                    | IO / ADC / PWM   |
+| PC6             | D5             | 5                    | IO / PWM         |
+| PF0             | A5             | A5                   | IO / ADC         |
+| PF1             | A4             | A4                   | IO / ADC         |
+| PF4             | A3             | A3                   | IO / ADC         |
+| PF5             | A2             | A2                   | IO / ADC         |
+| PF6             | A1             | A1                   | IO / ADC         |
+| PF7             | A0             | A0                   | IO / ADC         |
 
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
