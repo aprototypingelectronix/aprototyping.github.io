@@ -38,3 +38,7 @@ The hardware includes:
 | PF7             | A0             | A0                   | IO / ADC         |
 | PE6             | -              | 7                    | Onboard LED      |
 
+> Testing video
+
+[![Pix3lone testing](http://img.youtube.com/vi/hc1aCEK56J8/0.jpg)](http://www.youtube.com/watch?v=hc1aCEK56J8)
+
