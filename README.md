@@ -4,7 +4,7 @@
 ### Pix3lone
 
 This project is based for individuals who are interested to learn Microcontroller Programming. Hardware is design and built proudly in Maldives. 
-The board is preloaded with Arduino Leonardo Bootloader, Just plug the board to PC and upload your sketch immediately.
+The board is preloaded with Arduino Leonardo Bootloader (Pre loaded with Blinky sketch), Just plug the board to PC and upload your sketch immediately.
 
 For working examples please goto [Examples](https://github.com/aprototypingelectronix/aprototypingelectronix.github.io/tree/main/Examples "EXAMPLES") and if you have any comments or issues please goto [Issues](https://github.com/aprototypingelectronix/aprototypingelectronix.github.io/issues "ISSUES") and raise your voice!
 
